@@ -98,7 +98,7 @@ New-Item -ItemType Directory -Force state, workspace, tmp | Out-Null
 powershell -ExecutionPolicy Bypass -File .\register-hermes-autostart.ps1
 ```
 
-Скрипт создаёт задачу Windows `HermesWebUI` и записывает её состояние в `state/autostart-status.txt`. Сейчас в нём жёстко указано имя пользователя `Oracul`: на другом компьютере сначала измените переменную `$user` в скрипте. Задачей можно управлять через «Планировщик заданий» Windows.
+Скрипт создаёт задачу Windows `HermesWebUI` для текущего пользователя и записывает её состояние в `state/autostart-status.txt`. Задачей можно управлять через «Планировщик заданий» Windows.
 
 ## Проверки
 
