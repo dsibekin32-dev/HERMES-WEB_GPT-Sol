@@ -1,0 +1,9 @@
+venv/
+state/
+tmp/
+workspace/
+*.zip
+hermes-agent-main/
+hermes-webui-master/
+__pycache__/
+*.pyc
